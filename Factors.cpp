@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-int n;
+int k;
 cout<<"Enter a no. ";
-cin>>n;
-for(int i=1;i<=n;i++)
+cin>>k;
+for(int i=1;i<=k;i++)
     {
-        if(n%i==0)
+        if(k%i==0)
         cout<<i<<" ";
     }
 return 0;
